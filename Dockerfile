@@ -11,6 +11,7 @@ RUN yum clean all
 
 ADD etc/supervisord.conf /etc/
 ADD etc/kudu/conf/tserver.gflagfile /etc/kudu/conf/
+ADD etc/kudu/conf/master.gflagfile /etc/kudu/conf/
 
 WORKDIR /
 
